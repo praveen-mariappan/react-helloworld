@@ -1,0 +1,45 @@
+body {
+  background-color: #181a1b;
+  color: #e5e6e7;
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#app, html {
+  height: 100%;
+  min-height: 100vh;
+}
+
+a, a:visited {
+  color: #84a7ff;
+}
+
+input, button, textarea, select {
+  background-color: #23272a;
+  color: #e5e6e7;
+  border: 1px solid #555;
+}
+
+button {
+  background: #23272a;
+  color: #e5e6e7;
+  border: 1px solid #333;
+  padding: 0.4em 1.2em;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background 0.1s;
+}
+
+button:hover, button:focus {
+  background: #393e41;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: #23272a;
+}
+::-webkit-scrollbar-thumb {
+  background: #393e41;
+  border-radius: 5px;
+}
